@@ -33,6 +33,7 @@ jobs:
               php-version: ${{ matrix.php-version }}
               arch: ${{ matrix.arch }}
               ts: ${{ matrix.ts }}
+              args: '--enable-sync'
    release:
       runs-on: ubuntu-latest
       needs: build
