@@ -1,5 +1,5 @@
 {
-    "name": "php/sync",
+    "name": "php-win-ext/sync",
     "type": "php-ext",
     "license": "MIT",
     "description": "A PHP extension for Synchronization Objects (sync)",
