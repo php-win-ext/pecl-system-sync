@@ -34,6 +34,11 @@ Installation system support:
 | PECL     | no  :x:                |
 | PIE      | yes :white_check_mark: |
 
+To install the extension, use PIE (PHP Installer Extension) with a command like:
+
+```bash
+pie install php-win-ext/sync
+```
 
 Details
 -------
