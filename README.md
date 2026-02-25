@@ -1,4 +1,4 @@
-CubicleSoft PHP Extension:  Synchronization Objects (sync)
+CubicleSoft PHP Extension: Synchronization Objects (sync)
 ==========================================================
 
 The 'sync' extension introduces synchronization objects into PHP.  Named and unnamed Mutex, Semaphore, Event, Reader-Writer, and named Shared Memory objects provide OS-level synchronization mechanisms on both *NIX (POSIX shared memory and pthread shared memory synchronization required) and Windows platforms.  The extension comes with a test suite that integrates cleanly into 'make test'.
@@ -6,6 +6,34 @@ The 'sync' extension introduces synchronization objects into PHP.  Named and unn
 The 'sync' extension is a direct port of and compatible with the cross platform 'sync' library:  https://github.com/cubiclesoft/cross-platform-cpp
 
 This extension uses the liberal MIT open source license.  And, of course, it sits on GitHub for all of that pull request and issue tracker goodness to easily submit changes and ideas respectively.
+
+
+
+| Version | Status                       |
+|---------|------------------------------|
+| master  | unmaintened :x:              |
+| v1.x    | maintened :white_check_mark: |
+
+Maintained PHP Versions compatibility:
+
+| PHP Version | Status                 |
+|-------------|------------------------|
+| 5.x         | no :x:                 |
+| 7.x         | no :x:                 |
+| 8.0         | yes :white_check_mark: |
+| 8.1         | yes :white_check_mark: |
+| 8.2         | yes :white_check_mark: |
+| 8.3         | yes :white_check_mark: |
+| 8.4         | yes :white_check_mark: |
+| 8.5         | yes :white_check_mark: |
+
+Installation system support:
+
+| Platform | Status                 |
+|----------|------------------------|
+| PECL     | no  :x:                |
+| PIE      | yes :white_check_mark: |
+
 
 Details
 -------
